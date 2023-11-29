@@ -1,9 +1,14 @@
 .header {
     background-color: black;
+    display: flex;   
+    flex-direction: row;
+    justify-content: space-between;
+
 }
 
 .logo {
-    width: 100px;
+    width: 120px;
+    display: inline;
 }
 
 .cuerpo-azul {
@@ -14,6 +19,8 @@
 .img-article {
     width: 50px;
     height: 50px;
+    display: inline;
+
 }
 
 .cuerpo-blanco {
@@ -27,4 +34,16 @@ article {
     background-color: red;
     display: flex;
     flex-direction: row;
+}
+.rayitas {
+    width: 30px;
+    height: 30px;
+    margin: 20px;    
+}
+
+.pack {
+    display: inline-flexbox;
+    
+
+
 }

@@ -1,8 +1,95 @@
-@import 'core/variables';
+/*@import 'core/variables';
 @import 'core/reset';
 @import 'components/code';
 @import 'components/links';
 @import 'layout/page';
 @import 'layout/header';
 @import 'layout/footer';
-@import 'pages/index';
+@import 'pages/index'; */
+
+:root {
+    --blue: #529CF1;
+    font-size: 62.5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+}
+.hamburger {
+    width: 25px;
+    height: 30px;
+    margin: 10px;
+}
+.blue-section {
+    background-color: var(--blue);
+    height: 50vh;
+    padding-top: 50px;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    
+}
+.h1-blue {
+    font-size: 4.5rem;
+}
+.h3-blue{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 3.0rem;
+}
+.plans {
+    text-transform: uppercase;
+    background-color: #26B758;
+    padding: 5px;
+    border-radius: 40px;
+    width: 40vw;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.text-blue {
+    padding-top: 10px;
+    font-size: 1.0rem;
+}
+.h2-white {
+    font-size: 3.5rem;
+    padding-top: 30px;
+    text-align: center;
+}
+.article {
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    width: 90vw;
+}
+.img {
+    width: 100px;
+}
+.h4-white {
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+.p-white {
+    font-size: 1.5rem;
+}
+.footer {
+    background-color: black;
+    color: white;
+    font-size: 1.0rem;
+    height: 5vh;
+}
+.left {
+    list-style: none;
+    display: flex;
+}

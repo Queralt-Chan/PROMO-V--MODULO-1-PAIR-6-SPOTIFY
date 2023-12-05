@@ -1,38 +1,12 @@
-/*@import 'core/variables';
-@import 'core/reset';
-@import 'components/code';
-@import 'components/links';
-@import 'layout/page';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'pages/index';
-*{ 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 
-}
+@import "core/reset"
+@import "core/variables"
+@import "layout/footer"
+@import "layout/header"
+@import "layout/cuerpoazul"
 
 
-.header {
-    background-color: black;
-    display: flex;   
-    flex-direction: row;
-    justify-content: space-between;
 
-}
-
-.logo {
-    width: 120px;
-    display: inline;
-}
-
-.cuerpo-azul {
-    background-color: blue;
-    color: white;
-    height: 50%;
-    
-}
 
 .img-article {
     width: 50px;
@@ -72,26 +46,4 @@
     flex-direction: row;
 
 }
-.footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: black;
-    width: 100%;
 
-}
-.footertext {
-    color:white;
-    text-align: left;
-    padding: 30px;
-    list-style: none;
-
-
-}
-.right {
-    color: white;
-    text-align: right;
-    list-style: none;
-    padding: 30%;
-
-}

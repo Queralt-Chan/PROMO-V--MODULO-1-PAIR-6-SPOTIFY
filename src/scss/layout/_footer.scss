@@ -1,8 +1,24 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: $colorblack;
+  width: 100%;
+
+}
+.footertext {
+  color: $colorwhite;
+  text-align: left;
+  padding: 30px;
+  list-style: none;
+
+
+}
+.right {
+  color: $colorwhite;
+  text-align: right;
+  list-style: none;
+  padding: 30%;
+
 }
